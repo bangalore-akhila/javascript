@@ -14,7 +14,7 @@ function maxNumber(a,b) {
 //     let isPalindrome = true;
 //     //let revArray = input.reverse();
 //     //reverses the string
-//     //let revStr = input.split().reverse().join();
+//     //let revStr = input.split("").reverse().join("");
 //     // if(revArray === input) {
 //     //     isPalindrome = true;
 //     // } else {
