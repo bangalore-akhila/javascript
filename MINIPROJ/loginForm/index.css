@@ -1,0 +1,14 @@
+.parant{
+    display:flex;
+    height:90vh;
+  }
+  
+  .container {
+      margin: auto; 
+      height: 50vh;
+      width: 50%;
+      background-color: red;
+      justify-content: center;
+      align-items: center;
+    }
+  
