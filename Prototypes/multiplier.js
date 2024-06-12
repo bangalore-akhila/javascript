@@ -13,7 +13,7 @@
 // var circle = new Circle();
 // console.log(circle.getArea());
 
-
+//using prototypes
 function CircleRadius(){
     this.radius =20;
 }
