@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0px;
+}
+span {
+  background: url("https://cdn1.iconfinder.com/data/icons/DarkGlass_Reworked/128x128/apps/package_favourite.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  pointer-events: none;
+  background-size: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: animate 60s linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(10deg);
+    }
+    100% {
+        transform: translate(-50%, -50000%);
+        filter: hue-rotate(800deg)
+    }
+}
